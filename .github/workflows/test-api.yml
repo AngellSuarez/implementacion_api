@@ -29,5 +29,6 @@ jobs:
       
       - name: Run Pytest
         run: |
+          cd apiCandySoft
           pytest -q
           
